@@ -7,7 +7,7 @@ $(document).ready(function () {
         });
         makeCode();
 
-        $("#text").
+        $("#zaQRtxt").
             on("blur", function () {
                 makeCode();
             }).
