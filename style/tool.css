@@ -1,0 +1,79 @@
+body {
+	width: 320px;
+	margin: 0px;
+	font-size: 14px;
+	font-family: "Segoe UI",Arial,"Microsoft Yahei",sans-serif;
+}
+
+.wrapper {
+	padding: 20px;
+}
+
+.mod-setting {
+}
+
+.hd {
+	border-bottom: 1px dashed #ccc;
+	padding: 0 10px 10px 10px;
+	font-size: 16px;
+	color: #009966;
+	font-weight: bold;
+	height: 20px;
+}
+
+.hd a {
+	color: #999;
+	text-decoration: none;
+	font-size: 12px;
+	float: right;
+	font-weight: normal;
+	height: 20px;
+	display: flex;
+	align-items: flex-end;
+}
+
+.bd {
+	width: 100%;
+	text-align: center;
+}
+
+.qrcode {
+	padding: 10px 0;
+}
+
+.qrcode img {
+	padding: 20px 0;
+	margin: auto;
+}
+
+.text {
+	width: 100%;
+}
+
+.text textarea {
+	width: 230px;
+	padding: 5px 10px;
+	height: 60px;
+	outline: none;
+	border: 1px solid #ccc;
+	resize: none;
+}
+
+.link {
+	padding-top: 10px;
+}
+
+.link button {
+	width: 250px;
+	height: 37px;
+	background-color: #009966;
+	color: #fff;
+	font-size: 16px;
+	border:1px solid #009966;
+	outline: none;
+	cursor: pointer;
+}
+
+.linka {
+	padding-top: 20px;
+}

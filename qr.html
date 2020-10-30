@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+		<meta charset="UTF-8">
+		<title>zaQR</title>
+		<link rel="stylesheet" type="text/css" href="style/tool.css">
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="mod-setting">
+				<div class="hd">zaQR
+						<a href="" target="_blank">更多二维码功能 >></a>
+				</div>
+				<div class="bd">
+					<div id="zaQRcode" class="qrcode"></div>
+					<div class="text">
+						<textarea id="zaQRtxt" rows="4" placeholder="输入内容，最大长度150。" maxlength="150"></textarea>
+					</div>
+					<div class="link">
+						<button id="make">生成</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery2.1.1.js"></script>
+		<script src="js/qrcode.js"></script>
+		<script src="js/tool.js"></script>
+	</body>
+</html>
