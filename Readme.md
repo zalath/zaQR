@@ -3,7 +3,7 @@
 - toolbar application 工具插件
 - rightclick menu 右键菜单
 
-### structure
+### structure 结构
 
 - toolbar related 工具插件相关文件
     - js/tool.js
@@ -16,7 +16,7 @@
     - js/back.js //run in background 后台单独运行
     
 
-### logic
+### logic 逻辑
 
 - toolbar
     - as runing an independent paga in a new special tab
@@ -32,3 +32,13 @@
     - 命令开始于右键菜单的选择，之后直接发送给后台接收
     - 后台脚本不能直接操作页面，所以发送回一个带信息的请求给页面脚本
     - 页面脚本执行方法生成二维码并展示
+
+### usage 用法
+- menu->more tools->extension
+- open dev mode on the right
+- load unziped extension
+- choose current project's path
+- 菜单->更多工具->扩展程序
+- 在右侧开启：开发者模式
+- 加载已解压的扩展程序
+- 选择本项目路径
